@@ -11,20 +11,20 @@
 	 <header>
 
              <div class="header_login_netcontact">
-                   <div class="login">
+
                        <ul class="nav1">
-                           <li><a href="#"><img src="#" alt="">Вход</a></li>
-                           <li><a href="#"><img src="#" alt="">Избранное</a></li>
-                           <li><a href="#"><img src="#" alt="">Сравнение</a></li>
+                           <li class="nav1_item"><a href="#"><img src="img/enter.svg" alt="">Вход</a></li>
+                           <li class="nav1_item"><a href="#"><img src="img/heart.svg" alt="">Избранное</a></li>
+                           <li class="nav1_item"><a href="#"><img src="img/compare.svg" alt="">Сравнение</a></li>
                        </ul>
-                   </div>
-                     <div class="netcontact">
+
+
                          <ul class="nav2">
                              <li><a href="#"><img src="img/twitty.png" alt=""></a></li>
                              <li><a href="#"><img src="img/flicker_icon.png" alt=""></a></li>
                              <li><a href=""><img src="img/flicker_icon.png" alt=""></a></li>
                          </ul>
-                     </div>
+
              </div>
                 <div class="header_search">
                      <div class="slogo">
@@ -42,8 +42,12 @@
                                   </div>
                              </div>
                           <form action="1.php" method="post">
-                             <input class="btn" type="search" placeholder="Введите поисковую фразу"  value="#">
-                             <button type="button"><img src="#" alt=""></button>
+                             <input  type="search" name="search" class="search-form__search-field"  placeholder="Введите поисковую фразу">
+                             <button type="submit" class="search-form__search-button">
+                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.8 66">
+                                     <use xlink:href="search.svg#search"></use>
+                                 </svg>
+                             </button>
                           </form>
                     </div>
                   <div class="basket">

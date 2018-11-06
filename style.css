@@ -29,43 +29,51 @@ header{
 }
 nav {
     padding: 0 calc(50% - 683px);
+    margin: 0 auto;
 }
 .nav1  {
     list-style-type: none;
-    padding-left: 10px;
-    padding-right: 10px;
+     align-items: center;
     display:flex;
-
     justify-content: space-between;
+    padding: 0;
 }
+.nav1_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav1 a{
     padding: 20px;
 }
 
-.netcontact{
-    margin: 16px 20px;
-}
 
+.nav1 img {
+    width: 10%;
+    padding: 5px;
+}
 .nav2 a{
-    padding-right: 20px;
+    padding: 20px;
 }
 .nav2 {
     list-style-type: none;
     margin: 0;
+    padding: 0;
 
     display:flex;
 
-    padding-left: 10px;
-    padding-right: 10px;
+    align-items:center ;
     justify-content: space-between;
 }
 
 .nav2  li a img{
-    width: 20px;
+    width: 30%;
 }
 .header_login_netcontact{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #eeeeee;
 }
 .slogo{
@@ -87,9 +95,8 @@ nav {
     justify-content: space-between;
 }
 
-.btn{
-    width: 90%;
-    padding: 10px 200px;
+.icon{
+
 }
 
 .contact_header{
@@ -354,7 +361,7 @@ small{
     color: white;
     width: 100%;
     display: flex;
-    padding-left: 50%;
+
 
 }
 .slogon_footer img{
@@ -369,7 +376,7 @@ small{
     display: flex;
     justify-content: space-around;
     background: yellow;
-    padding-right: 150px;
+
 
 }
 .footer__menu li, .footer__payment-method li, .footer__contacts li {
