@@ -25,7 +25,7 @@ a{
 
 header{
     padding: 0 calc(50% - 683px);
-    background: #eeeeee;
+
 
 }
 nav {
@@ -77,6 +77,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background: #eeeeee;
+
 }
 .slogo{
     display:flex;
@@ -95,6 +96,7 @@ nav {
 .header_search{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .icon{
@@ -110,10 +112,16 @@ nav {
 
 }
 .basket{
-    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid greenyellow;
+
 }
 .basket output{
-    border: 2px solid red;
+
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -121,7 +129,7 @@ nav {
     width: 30px;
     padding-right: 20px;
     padding-left: 20px;
-    border: 2px solid red;
+    border-left: 1px solid greenyellow;
 }
 .nav3 {
     list-style-type: none;
@@ -162,6 +170,10 @@ main{
     width:calc(100% - 250px);
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid greenyellow;
+    margin-left: 20px;
 
 
 
@@ -182,8 +194,14 @@ section{
 }
 .central_slider_content{
     display: flex;
-    flex-wrap: wrap;
+
     border: 1px solid greenyellow;
+    width:100%;
+}
+.central_slider_content img{
+    width: 20%;
+    margin: 50px;
+
 }
 .central_slider{
     width: 259px;
@@ -204,18 +222,25 @@ section{
     padding: 0 10px;
 }
 .content_form{
-    width: calc(100% - 259px);
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
-.buy{
-    padding: 10px;
-    background: red;
-}
-.content_form{
+
+.slider__buy{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:  red;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 0;
+    width: 30%;
+
+
+
 }
 
 .nav4 {
@@ -372,7 +397,7 @@ small{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 calc(50% - 683px);
+    width: inherit;
 
 
 }
