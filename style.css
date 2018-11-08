@@ -194,6 +194,9 @@ section{
 }
 .central_slider_content{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     border: 1px solid greenyellow;
     width:100%;
@@ -202,6 +205,9 @@ section{
     width: 20%;
     margin: 50px;
 
+}
+.your-class img{
+    width: 200px;
 }
 .central_slider{
     width: 259px;
@@ -424,4 +430,9 @@ small{
 }
 .footer__menu ul li, .footer__payment-method ul li, .footer__contacts ul li{
     padding: 10px 0;
+}
+.first_slader, .second_slader, .third_slader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
